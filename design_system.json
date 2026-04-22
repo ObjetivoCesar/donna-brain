@@ -1,0 +1,96 @@
+{
+    "designSystem": {
+        "name": "Daily Flow Assistant Design",
+        "framework": "Tailwind CSS",
+        "theme": {
+            "colors": {
+                "background": {
+                    "main": "bg-gray-900",
+                    "secondary": "bg-gray-800",
+                    "tertiary": "bg-gray-800/50",
+                    "inputs": "bg-gray-800",
+                    "overlay": "bg-black/80",
+                    "gradient": "bg-gradient-to-b from-gray-900/60 via-gray-900/40 to-gray-900/90"
+                },
+                "text": {
+                    "primary": "text-white",
+                    "secondary": "text-gray-300",
+                    "tertiary": "text-gray-400",
+                    "muted": "text-gray-500",
+                    "accent_blue": "text-blue-400",
+                    "accent_green": "text-green-400",
+                    "accent_red": "text-red-400"
+                },
+                "border": {
+                    "default": "border-gray-800",
+                    "light": "border-gray-700/50"
+                }
+            },
+            "typography": {
+                "fontFamily": "Poppins, sans-serif",
+                "weights": {
+                    "regular": "font-normal",
+                    "medium": "font-medium",
+                    "bold": "font-bold"
+                }
+            },
+            "borderRadius": {
+                "modal": "rounded-2xl",
+                "card": "rounded-xl",
+                "button": "rounded-xl",
+                "input": "rounded-lg",
+                "pill": "rounded-full"
+            },
+            "shadows": {
+                "modal": "shadow-2xl",
+                "button": "shadow-lg"
+            },
+            "effects": {
+                "glass": "backdrop-blur-sm",
+                "interaction": "active:scale-95 transition-all"
+            }
+        },
+        "components": {
+            "card": {
+                "className": "bg-gray-900 rounded-2xl shadow-2xl border border-gray-800 p-6 flex flex-col"
+            },
+            "miniCard": {
+                "className": "bg-gray-800/50 p-4 rounded-xl border border-gray-700/50"
+            },
+            "buttons": {
+                "primary": {
+                    "className": "bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-full px-6 py-2 transition-all active:scale-95 shadow-lg flex items-center gap-2 justify-center"
+                },
+                "secondary": {
+                    "className": "text-gray-400 hover:text-white font-medium px-4 py-2 transition-colors rounded-lg"
+                },
+                "danger": {
+                    "className": "bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-xl shadow-lg transition flex items-center justify-center space-x-2"
+                },
+                "icon": {
+                    "className": "p-2 text-gray-400 hover:text-white rounded-full hover:bg-gray-800 transition-colors"
+                }
+            },
+            "inputs": {
+                "text": {
+                    "className": "w-full bg-gray-800 border-none rounded-lg p-3 text-white focus:ring-2 focus:ring-blue-500 outline-none"
+                },
+                "transparent": {
+                    "className": "w-full bg-transparent text-2xl font-bold text-white outline-none placeholder-gray-600"
+                },
+                "range": {
+                    "className": "w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                }
+            },
+            "headers": {
+                "modalTitle": "text-xl font-bold text-white flex items-center gap-2",
+                "sectionTitle": "text-gray-400 text-sm font-medium uppercase tracking-wider"
+            },
+            "modals": {
+                "container": "fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm",
+                "window": "w-full max-w-md bg-gray-900 rounded-2xl shadow-2xl border border-gray-800 flex flex-col max-h-[90vh]"
+            }
+        },
+        "icons": "Lucide React (size 18-24px, typically stroke-width 2)"
+    }
+}

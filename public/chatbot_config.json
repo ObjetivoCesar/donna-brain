@@ -1,0 +1,42 @@
+{
+  "version": "1.1-classifier",
+  "labels": {
+    "FATIGUE_DEMOTIVATION": "Cansancio o desmotivación",
+    "EMOTIONAL_UNCERTAINTY": "Incertidumbre emocional",
+    "INSPIRATION_CREATIVITY": "Inspiración o creatividad",
+    "POSITIVE_IMPULSE": "Impulso positivo",
+    "INSECURITY_REJECTION": "Inseguridad o miedo al rechazo",
+    "PROCRASTINATION_DOUBT": "Postergación o duda",
+    "SHAME_PERFECTIONISM": "Vergüenza o autoexigencia",
+    "ENTHUSIASM_NEW_BEGINNINGS": "Entusiasmo o nuevos comienzos"
+  },
+  "mappings": {
+    "FATIGUE_DEMOTIVATION": {
+      "responseText": "audio-cansancio-o-desmotivacion"
+    },
+    "EMOTIONAL_UNCERTAINTY": {
+      "responseText": "audio-incertidumbre-emocional"
+    },
+    "INSPIRATION_CREATIVITY": {
+      "responseText": "audio-inspiracion-o-creatividad"
+    },
+    "POSITIVE_IMPULSE": {
+      "responseText": "audio-impulso-positivo"
+    },
+    "INSECURITY_REJECTION": {
+      "responseText": "audio-inseguridad-o-miedo-al-rechazo"
+    },
+    "PROCRASTINATION_DOUBT": {
+      "responseText": "audio-postergacion-o-duda"
+    },
+    "SHAME_PERFECTIONISM": {
+      "responseText": "audio-verguenza-o-autoexigencia"
+    },
+    "ENTHUSIASM_NEW_BEGINNINGS": {
+      "responseText": "audio-entusiasmo-o-nuevos-comienzos"
+    }
+  },
+  "unknownResponse": "No he podido identificar la intención. Por favor, reformula tu mensaje.",
+  "crisisKeywords": ["suicidio", "matarme", "hacerme daño", "no quiero vivir"],
+  "crisisResponse": "CRISIS_DETECTED"
+}
